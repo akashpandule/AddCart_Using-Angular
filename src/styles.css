@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* Custom CSS for the card */
+.card-custom {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    max-width: 300px; /* Reduce the maximum width of the card */
+    background-color: #f8f9fa; /* Background color for the card */
+}
+
+.card-custom:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-custom .card-body {
+    padding: 15px; /* Reduce padding to make the card smaller */
+}
+
+.card-custom .card-title {
+    font-size: 1.1rem; /* Reduce font size for the title */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add margin bottom to the title */
+}
+
+.card-custom .card-text {
+    color: #555; /* Change text color for better readability */
+    margin-bottom: 15px; /* Add margin bottom to the text */
+}
+
+.card-custom .btn {
+    background-color: #dc3545; /* Change button color */
+    color: #fff;
+    border: none;
+    padding: 6px 12px; /* Reduce padding for smaller button */
+    border-radius: 3px; /* Adjust button border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.card-custom .btn:hover {
+    background-color: #c82333; /* Darken button color on hover */
+}

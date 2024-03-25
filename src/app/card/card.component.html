@@ -1,0 +1,11 @@
+<div class="col">
+    <div class="row-md-4" *ngFor="let item of products">
+        <div class="card-custom mb-3" style="background-color: aquamarine;border: 3px black;">
+            <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <p class="card-text">Price: {{ item.price }}</p>
+                <button class="btn" (click)="sendProductToParent(item)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
